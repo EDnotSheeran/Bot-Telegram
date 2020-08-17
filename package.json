@@ -1,0 +1,30 @@
+{
+  "name": "Bot-Telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd src",
+    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDnotSheeran/Bot-Telegram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDnotSheeran/Bot-Telegram/issues"
+  },
+  "homepage": "https://github.com/EDnotSheeran/Bot-Telegram#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.57",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.50.2",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
