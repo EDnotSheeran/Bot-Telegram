@@ -1,11 +1,11 @@
 {
-  "name": "Bot-Telegram",
+  "name": "ednotsheeran_bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsnd src",
-    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn src"
+    "start": "tsnd .",
+    "dev": "tsnd --transpile-only --ignore-watch node_modules --respawn ."
   },
   "repository": {
     "type": "git",
