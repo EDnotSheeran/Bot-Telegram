@@ -13,10 +13,10 @@ import help from './commands/help'
 import lyrics from './commands/lyrics'
 
 bot.onText(/\/echo (.+)/, echo)
-bot.onText(/\/time/, time)
 bot.onText(/\/whois (.+)/, whois)
+bot.onText(/\/lyrics (.+)/, lyrics)
+bot.onText(/\/time/, time)
 bot.onText(/\/help/, help)
-bot.onText(/\/lyrics (.*)/, lyrics)
 
 // Events
 import join from './events/join'
