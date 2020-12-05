@@ -29,3 +29,8 @@ bot.on('left_chat_member', left)
 
 // Initialization Message
 console.log('\x1b[36mEDnotSheeran_bot\x1b[0m \x1b[33m[started]\x1b[0m')
+
+import express from 'express'
+const app = express()
+app.get('/', (req,res) => res.send('Bot running...'))
+app.listen(3333)
